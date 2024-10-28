@@ -1,0 +1,53 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+#container p {
+  font-size: 20px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+  color: var(--ion-color-primary);
+}
+
+/* Tambahkan styling untuk ion-card */
+ion-card {
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ea909f; /* Warna krem */
+  text-align: center; /* Menyelaraskan teks dalam kartu */
+}
+
+ion-card-title {
+  color: var(--ion-color-primary);
+  font-weight: bold;
+}
+
+ion-card-content {
+  text-align: center; /* Menyelaraskan teks di konten kartu */
+}
+
+ion-card-content p {
+  color: #333;
+  font-size: 16px;
+}
